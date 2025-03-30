@@ -1,0 +1,137 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Karla';    
+}
+
+body {
+
+
+    background-color: hsla(179, 62%, 43%, 0.074);
+    margin-top: 10%;
+    margin-left: 26%
+
+}
+
+h2, h4, p {
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+} 
+
+#card {
+    align-items: centre;
+    width: 650px;
+    height: 470px;
+    box-shadow: 2px 3px 35px -13px rgba(0,0,0,0.35);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#topSection {
+    width: 100%;
+    height: 44%;
+    background-color: white;
+    padding: 40px;
+
+}
+
+#bottomSection {
+    width: 100%;
+    height: 56%;
+    color: white;
+    font-size: 16px;
+
+}
+
+#bottomLeftSection {
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    background-color: hsl(179, 62%, 43%);
+}
+
+#bottomRightSection {
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    background-color: hsl(179, 49%, 53%);
+}
+
+#topSection h2 {
+    color:  hsl(179, 62%, 43%);
+    margin-bottom: 25px;
+}
+
+#topSection h4 {
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 15px;
+
+}
+
+#topSection p{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5;
+
+}
+
+#button {
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    border: 0cap;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 3px 35px -13px rgba(0,0,0,0.35);
+}
+
+#price {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#bottomLeftSection h4 {
+    margin-bottom: 15px;
+}
+
+#priceFrequency, #price {
+    display: inline-block;
+    position: relative;
+
+}
+
+#priceContainer {
+    margin-bottom: 10px;
+}
+
+#bottomLeftSection p {
+    margin-bottom: 33px;
+
+}
+
+#priceFrequency {
+    top: -5px;
+    font-size: 14px;
+    opacity: 0.6;
+    padding-left: 6px;
+}
+#bottomRightSection ul {
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    opacity: 0.6;
+    line-height: 1.5;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: hsl(0, 100%, 37%);
+    transform: scale(1.01);
+}
+
+
