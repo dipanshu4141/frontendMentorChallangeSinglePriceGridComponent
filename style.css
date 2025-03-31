@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-family: 'Karla';    
+    font-family: 'Karla';
 }
 
 body {
@@ -16,25 +16,36 @@ h2, h4, p {
 } 
 
 #card {
-    box-shadow: 2px 3px 35px -13px rgba(0,0,0,0.35);
+    box-shadow: -1px 1px 136px -57px rgba(0,0,0,1);
     border-radius: 5px;
     overflow: hidden;
+    height: 152vw;
+    margin: 13.33vw;
 }
 
 #topSection {
     width: 100%;
-    height: 40%;
+    height: 52vw;
     background-color: white;
-    padding: 40px;
+    padding-top: 6vw;
+    padding-top: 6vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
 
 }
 
 #bottomSection {
     width: 100%;
-    height: 60%;
+    height: 100vw;
     color: white;
-    font-size: 16px;
+    font-size: 2.9vw;
 
+}
+
+#bottomLeftSection h4 {
+    font-size: 3.8vw;
+    margin-bottom: 3vw;
+    opacity: 85%;
 }
 
 #bottomLeftSection {
@@ -42,7 +53,7 @@ h2, h4, p {
     display: inline-block;
     width: 100%;
     height: 50%;
-    padding: 40px;
+    padding: 6vw;
     background-color: hsl(179, 62%, 43%);
 }
 
@@ -51,24 +62,27 @@ h2, h4, p {
     display: inline-block;
     width: 100%;
     height: 50%;
-    padding: 40px;
+    padding: 6vw;
     background-color: hsl(179, 49%, 53%);
 }
 
 #topSection h2 {
     color:  hsl(179, 62%, 43%);
-    margin-bottom: 25px;
+    margin-bottom: 5.5vw;
+    font-size: 4.5vw;
 }
 
 #topSection h4 {
     color: hsl(71, 73%, 54%);
-    margin-bottom: 15px;
+    margin-bottom: 4vw;
+    font-size: 3.3vw;
 
 }
 
 #topSection p{
     color: hsl(218, 22%, 67%);
     line-height: 1.5;
+    font-size: 3vw;
 
 }
 
@@ -76,20 +90,18 @@ h2, h4, p {
     color: white;
     background-color: hsl(71, 73%, 54%);
     border: 0cap;
-    padding: 12px;
+    padding: 3.2vw;
     width: 100%;
     border-radius: 5px;
     box-shadow: 2px 3px 35px -13px rgba(0,0,0,0.35);
+    font-size: 4.2vw;
 }
 
 #price {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 6.9vw;
 }
 
-#bottomLeftSection h4 {
-    margin-bottom: 15px;
-}
 
 #priceFrequency, #price {
     display: inline-block;
@@ -98,42 +110,119 @@ h2, h4, p {
 }
 
 #priceContainer {
-    margin-bottom: 10px;
+    margin-bottom: 1.5vw;
 }
 
 #bottomLeftSection p {
-    margin-bottom: 33px;
+    margin-bottom: 6.5vw;
+    opacity: 70%;
 
 }
 
 #priceFrequency {
     top: -5px;
-    font-size: 14px;
-    opacity: 0.6;
+    font-size: 3.4vw;
+    opacity: 60%;
     padding-left: 6px;
 }
 #bottomRightSection ul {
     padding: 0;
     list-style: none;
-    font-size: 14px;
+    font-size: 3vw;
     opacity: 0.6;
     line-height: 1.5;
+}
+
+#bottomRightSection h4 {
+    font-size: 3.4vw;
+
 }
 
 #button:hover {
     cursor: pointer;
     background-color: hsl(0, 100%, 37%);
-    transform: scale(1.01);
+    transform: scale(1.03);
 }
 
-@media (min-width: 1280px){
+/* @media (min-width: 375px){
+    
+} */
+@media (min-width: 1440px) {
     #card {
-        width: 650px;
-        height: 470px;
+        width: 40vw ;
+        height: 31vw;
+        margin-left: 30vw;
+        margin-right: 30vw;
+        
+        
+        /* margin-top: 15vw;
+        margin-bottom: 15vw; */
     }
+
+    #topSection {
+        width: 100%;
+        height: 13.55vw;
+        padding-top: 2.22vw;
+        padding-bottom: 2.22vw;
+        padding-left: 1.77vw;
+        padding-right: 1.77vw;
+    }
+
     #bottomLeftSection, #bottomRightSection {
         width: 50%;
         height: 100%;
+        padding-top: 2.22vw;
+        padding-bottom: 2.22vw;
+        padding-left: 1.77vw;
+        padding-right: 1.77vw;
     }
-}
 
+    #topSection h2 {
+        font-size: 1.544vw;
+        margin-bottom: 1.22vw;
+    }
+
+    #topSection h4 {
+        font-size: 1.166vw;
+        margin-bottom: 1.166vw;
+    }
+    
+    #topSection p {
+        font-size: 1.01vw;
+    }
+    
+    #price {
+        font-size: 2.22vw;
+    }
+
+    #priceFrequency {
+        font-size: 0.88vw;
+        padding: 0;
+    }
+
+    #priceContainer {
+        margin: 0;
+    }
+
+    #bottomLeftSection h4 {
+        font-size: 1.16vw;
+        margin-bottom: 0.77vw;
+    }
+    #bottomLeftSection p {
+        font-size: 1.11vw;
+        margin-top: 0.22vw;
+        margin-bottom: 2.22vw;
+    }
+    #button {
+        padding: 1rem;
+        font-size: 1.16vw;
+    }
+
+    #bottomRightSection h4 {
+        font-size: 1.16vw;
+    }
+    #bottomRightSection ul {
+        font-size: 1vw;
+    }
+
+}
