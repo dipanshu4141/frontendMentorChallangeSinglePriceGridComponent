@@ -126,7 +126,7 @@ h2, h4, p {
     transform: scale(1.01);
 }
 
-@media (min-width: 668px){
+@media (min-width: 1280px){
     #card {
         width: 650px;
         height: 470px;
